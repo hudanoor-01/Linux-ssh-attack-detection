@@ -48,16 +48,12 @@ event.category: "authentication" and message: "Failed password"
 ### Rule Type
 
   Threshold rule
-  
-### Purpose
-
-  The rule detects multiple failed SSH authentication attempts within the configured threshold and time.
 
 ### Severity
 
   Medium
 
-When the threshold is reached, Elastic Security generates an alert for investigation.
+The rule detects multiple failed SSH authentication events and generates an alert when the configured threshold is reached.
 
 
 ## Project Screenshots
